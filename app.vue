@@ -1,5 +1,14 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  <NuxtLayout>
-    <p>MAIN CONTENT</p>
-  </NuxtLayout>
+  <div>
+    <NuxtLoadingIndicator
+      color="linear-gradient(to right, #0099ff 0%, #66ff66 100%)"
+    />
+
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>

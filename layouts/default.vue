@@ -1,17 +1,16 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-<div class="grid grid-cols-[minmax(200px,_1fr)_5fr]  min-h-screen bg-base-100">
+<div class="grid grid-cols-[minmax(13rem,_1fr)_5fr]  min-h-screen bg-base-100">
   <LayoutSidebar />
 
-  <main>
+  <main class="p-6">
     <slot />
   </main>
 </div>
+
+
+  <VueQueryDevtools />
 </template>
 
-<style scoped>
-
-</style>
+<script setup lang="ts">
+import { VueQueryDevtools } from '@tanstack/vue-query-devtools';
+</script>

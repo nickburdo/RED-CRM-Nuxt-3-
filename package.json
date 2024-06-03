@@ -13,11 +13,20 @@
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "@pinia/nuxt": "^0.5.1",
+    "@tanstack/vue-query": "^5.40.0",
+    "@tanstack/vue-query-devtools": "^5.40.0",
+    "@vee-validate/nuxt": "^4.12.8",
+    "@vee-validate/yup": "^4.12.8",
+    "appwrite": "^15.0.0",
+    "dayjs": "^1.11.11",
     "nuxt": "^3.11.2",
+    "uuid": "^9.0.1",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.8",
     "daisyui": "^4.11.1",
     "nuxt-icon": "^0.6.10"
   }

@@ -2,6 +2,13 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Links
+
+#### Drawer
+[Creating a custom drawer component in Nuxt3 using Tailwind CSS](https://medium.com/@gsaroa/creating-a-custom-drawer-component-in-nuxt3-using-tailwind-css-edf672e8442)   
+by Gurdeep Saroa
+
+
 ## Setup
 
 Make sure to install the dependencies:
