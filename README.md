@@ -1,6 +1,20 @@
-# Nuxt 3 Minimal Starter
+# RED CRM
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Based on the [CRM system from scratch on VUE 3 / NUXT](https://www.youtube.com/watch?v=JaIA1k4FLG8&ab_channel=REDGroup) video by [RED Group](https://www.youtube.com/c/REDGroup).
+
+## Stack
+
+[Nuxt 3](https://nuxt.com/)  
+[Pinia](https://pinia.vuejs.org/) as state manager  
+[Appwrite](https://cloud.appwrite.io/console/organization-665861b60032ba9c4048) as Database  
+[TanStack Query](https://tanstack.com/query/latest/docs/framework/vue/overview) as query state manager  
+[VeeValidate](https://vee-validate.logaretm.com/v4/) to validate forms  
+[Yup](https://www.npmjs.com/package/yup#schematypeerrormessage-string-schema) to validation schemas  
+[Tailwind CSS](https://tailwindcss.com/)  as CSS framework  
+[daisyUI](https://daisyui.com/) as components library for Tailwind CSS  
+[Day.js](https://day.js.org/en/) as Date Time library  
+[uuid](https://www.npmjs.com/package/uuid) to create a random UUID   
+[Icons collection](https://icones.js.org/)  
 
 ## Links
 
@@ -14,17 +28,7 @@ by Gurdeep Saroa
 Make sure to install the dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -32,17 +36,7 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -50,33 +44,11 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
