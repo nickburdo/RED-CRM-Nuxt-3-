@@ -32,7 +32,6 @@ const onSubmit = handleSubmit(values => {
       email: customerEmail
     }
   }
-  console.log('SUBMIT', context);
   mutate(context);
 })
 </script>

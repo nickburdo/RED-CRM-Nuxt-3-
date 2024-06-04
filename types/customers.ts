@@ -8,3 +8,7 @@ export interface Customer extends BaseData {
   from_source?: string;
   deal?: Deal;
 }
+
+export interface CustomerUpdateContext extends Pick<Customer, 'name' |'email' | 'avatar_url' | 'from_source'> {
+  id: string;
+}

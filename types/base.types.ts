@@ -1,4 +1,4 @@
 export interface BaseData {
-  id: string;
-  createdAt: string;
+  $id: string;
+  $createdAt: string;
 }

@@ -25,7 +25,7 @@ const movedDeal = ref({
   from: DealStatus.inbox,
 })
 
-const { data } = useDealsQuery();
+const { data, isFetching, isLoading } = useDealsQuery();
 const { mutate } = useDealStatusChangeMutation();
 
 const handleDragStart = (id: string, from: DealStatus) => {
@@ -54,6 +54,8 @@ watch(() => data.value, (value) => {
 
 <template>
 <div>
+  <UiPageLoader v-if="isFetching || isLoading" />
+
   <PageHeader title="Deals Board">
     <CreateDeal />
   </PageHeader>
